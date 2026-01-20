@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Output
+ui-diff-output/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cache
+.npm/
+ui-diff-cache/
+
+# Test files
+test-output/
+*.test.png

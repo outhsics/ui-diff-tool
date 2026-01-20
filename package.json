@@ -1,0 +1,59 @@
+{
+  "name": "ui-diff-tool",
+  "version": "1.0.0",
+  "description": "UI设计稿与实际界面自动对比工具 - 支持蓝湖设计稿、小程序、H5界面对比，生成AI可读的修复建议",
+  "main": "index.js",
+  "bin": {
+    "ui-diff": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "compare": "node bin/cli.js compare",
+    "report": "node bin/cli.js report",
+    "watch": "node bin/cli.js watch"
+  },
+  "keywords": [
+    "ui-diff",
+    "design-compare",
+    "visual-regression",
+    "lanhu",
+    "蓝湖",
+    "miniprogram",
+    "小程序",
+    "h5",
+    "screenshot",
+    "pixelmatch",
+    "ai-fix",
+    "claude",
+    "cursor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthropics/ui-diff-tool.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthropics/ui-diff-tool/issues"
+  },
+  "homepage": "https://github.com/anthropics/ui-diff-tool#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "inquirer": "^8.2.6",
+    "jimp": "^0.22.12",
+    "node-fetch": "^2.7.0",
+    "ora": "^5.4.1",
+    "pixelmatch": "^5.3.0",
+    "playwright": "^1.40.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.33.2",
+    "table": "^6.8.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
