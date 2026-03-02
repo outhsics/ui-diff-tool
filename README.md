@@ -2,6 +2,15 @@
 
 **UI设计稿与实际界面自动对比工具** - 让 AI 帮你自动修复界面差异
 
+## Recruiter Snapshot
+
+- Status: `active`
+- Positioning: frontend quality-assurance tool for design-to-implementation validation
+- Core Value: reduce manual UI review by automated pixel diff and AI-readable fix prompts
+- Stack: Node.js CLI, Playwright, pixelmatch, HTML report generation
+- Delivery Signal: single-page and batch comparison workflows for engineering teams
+- Last Reviewed: `2026-03-02`
+
 ## ✨ 功能特性
 
 - 🔍 **像素级对比** - 使用 pixelmatch 进行精确的像素对比
